@@ -57,7 +57,7 @@ namespace FinApp_V2
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
-                endpoints.MapHub<ChatHub>("/hubs/chat");
+                endpoints.MapHub<ChatHub>("/event");
             });
 
 
